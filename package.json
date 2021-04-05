@@ -1,0 +1,35 @@
+{
+  "name": "farmbotsimulator-js",
+  "version": "1.0.0",
+  "description": "A simulator for the farmbot agricultural robot in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/big-farmer/farmbotsimulator-js.git"
+  },
+  "type": "module",
+  "keywords": [
+    "farmbot",
+    "simulator",
+    "big-farmer",
+    "farmbot-juakali"
+  ],
+  "author": "Brian Onang'o",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/big-farmer/farmbotsimulator-js/issues"
+  },
+  "homepage": "https://github.com/big-farmer/farmbotsimulator-js#readme",
+  "dependencies": {
+    "await-to-js": "^2.1.1",
+    "axios": "^0.20.0",
+    "babylonjs": "^4.1.0",
+    "events": "^3.3.0",
+    "farmbot": "^13.1.0",
+    "mqtt": "^4.2.1",
+    "net": "^1.0.2"
+  }
+}
