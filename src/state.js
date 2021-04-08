@@ -671,6 +671,8 @@ class stateController extends events {
      */
     async moveBot(motionData, newLocation) {
         return new Promise((resolve, reject) => {
+            this.emit('toLocation', newLocation);
+            return resolve(true)
             let {
                 distance,
                 time,
